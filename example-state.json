@@ -1,0 +1,10 @@
+{
+  "buildings": {"castle": 7, "warehouse": 2},
+  "resources": {"wood": 80, "stone": 80, "ore": 80},
+  "capacity": 100,
+  "queue": [],
+  "next_levels": {
+    "castle": {"level": 8, "cost": {"wood": 120, "stone": 50, "ore": 40}, "requires": {}},
+    "warehouse": {"level": 3, "cost": {"wood": 60, "stone": 30, "ore": 20}, "requires": {}}
+  }
+}
